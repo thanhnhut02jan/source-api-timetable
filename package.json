@@ -1,0 +1,30 @@
+{
+  "name": "my-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "devEn": "nodemon -e pug,js src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanhnhut02jan/my-web-app.git"
+  },
+  "author": "thanhnhut02jan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanhnhut02jan/my-web-app/issues"
+  },
+  "homepage": "https://github.com/thanhnhut02jan/my-web-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
