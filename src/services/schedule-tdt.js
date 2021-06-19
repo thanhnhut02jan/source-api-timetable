@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 async function getTimeTable({ name, pass, hocKyID, token }) {
-  var urlList = {
+  const urlList = {
     postAccountUrl: "https://stdportal.tdtu.edu.vn/taikhoan/dangnhap",
     getSessionUrl: "http://sso.tdt.edu.vn/Authenticate.aspx?ReturnUrl=http%3a%2f%2fthoikhoabieudukien.tdtu.edu.vn%2fkqdk",
     getRegisResultUrl: `http://thoikhoabieudukien.tdtu.edu.vn/API/XemKetQuaDangKy/LoadKetQua?hocKyID=${hocKyID}`
